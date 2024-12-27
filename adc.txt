@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int getAdc()
+{
+	int adcVal = 0;
+	scanf("%d",&adcVal);
+	return adcVal;
+}
+
+int main(void)
+{
+	printf("Adc section\n");
+	printf("Adc value = %d",getAdc());
+	return;
+}
