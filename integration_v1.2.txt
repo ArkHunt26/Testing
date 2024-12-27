@@ -9,6 +9,12 @@ int getAdc()
 
 int main(void)
 {
+	printf("Hello world");
+	
+	int a = 2, b = 3;
+	printf("RTC code\n");
+	printf("Sum = %d",a+b);
+
 	printf("Adc section\n");
 	printf("Adc value = %d",getAdc());
 	return;
